@@ -1,0 +1,441 @@
+City,Country,Temperature (°C),Weather Description,Wind Speed (m/s),Pressure (hPa),Humidity (%),Dew Point (°C),Visibility (m)
+London,GB,15.54,overcast clouds,5.66,1009,88,13.139999999999999,10000
+Paris,FR,16.91,clear sky,5.14,1017,82,13.31,10000
+Berlin,DE,17,few clouds,4.12,1014,69,10.8,10000
+Madrid,ES,28.62,clear sky,1.79,1005,29,14.420000000000002,10000
+Rome,US,28.33,broken clouds,4.12,1017,49,18.13,10000
+Athens,GR,21.98,clear sky,1.34,1013,45,10.98,10000
+Warsaw,PL,20.74,clear sky,3.09,1015,49,10.54,10000
+Vienna,AT,15.05,few clouds,9.39,1017,74,9.850000000000001,10000
+Amsterdam,NL,14.42,broken clouds,8.75,1011,87,11.82,10000
+Brussels,BE,15.36,broken clouds,5.14,1014,88,12.959999999999999,10000
+Lisbon,PT,22.87,few clouds,8.75,1018,51,13.07,10000
+Oslo,NO,17.14,moderate rain,1.17,1012,83,13.74,10000
+Stockholm,SE,21.86,clear sky,2.57,1014,46,11.059999999999999,10000
+Helsinki,FI,19.25,clear sky,3.6,1017,63,11.85,10000
+Copenhagen,DK,14.92,scattered clouds,4.63,1016,75,9.92,10000
+Dublin,US,19.85,few clouds,3.13,1017,61,12.05,10000
+Budapest,HU,19.73,broken clouds,2.24,1012,68,13.33,10000
+Prague,CZ,15.73,broken clouds,2.06,1019,81,11.93,10000
+Bratislava,SK,16.34,few clouds,8.23,1015,75,11.34,10000
+Ljubljana,SI,14.77,light rain,1.03,1017,95,13.77,10000
+Donji grad,HR,17.35,clear sky,3.6,1015,79,13.150000000000002,10000
+Belgrade,RS,20.81,clear sky,2.57,1012,49,10.61,10000
+Sofia,BG,14.59,overcast clouds,1.03,1018,76,9.79,10000
+Bucharest,RO,16.93,clear sky,3.09,1006,69,10.73,10000
+Vilnius,LT,20.49,clear sky,2.06,1018,56,11.689999999999998,10000
+Rīga,LV,26.04,clear sky,3.09,1016,34,12.84,10000
+Tallinn,EE,22.19,clear sky,2.06,1017,43,10.790000000000001,10000
+Valletta,MT,20.3,clear sky,3.6,1015,83,16.900000000000002,10000
+Nicosia,CY,21.17,few clouds,4.63,1012,68,14.770000000000001,10000
+Reykjavik,IS,7.1,overcast clouds,3.3,1008,98,6.699999999999999,N/A
+Luxembourg Province,BE,12.44,overcast clouds,5.13,1017,99,12.24,315
+Monaco,MC,20.85,broken clouds,1.03,1014,68,14.450000000000001,10000
+Andorra la Vella,AD,13.01,scattered clouds,1.09,1020,83,9.61,10000
+San Marino,SM,18.46,few clouds,0.51,1014,83,15.06,10000
+Vatican City,VA,20.4,few clouds,3.09,1014,50,10.399999999999999,10000
+Bern,CH,16.33,clear sky,1.54,1019,51,6.529999999999998,10000
+Minsk,BY,17.86,scattered clouds,2.81,1019,84,14.66,10000
+Tirana,AL,18.49,light rain,1.54,1014,68,12.089999999999998,10000
+Chișinău,MD,16.63,broken clouds,2.57,1014,99,16.43,10000
+Podgorica,ME,20.79,thunderstorm,3.09,1014,73,15.389999999999999,10000
+Skopje,MK,15.82,scattered clouds,2.06,1014,77,11.22,10000
+Sarajevo,BA,16.95,broken clouds,2.06,1015,72,11.35,10000
+Tbilisi,GE,17.84,clear sky,3.09,1018,82,14.24,10000
+Yerevan,AM,21.09,few clouds,5.66,1014,46,10.29,10000
+Baku,AZ,20.03,clear sky,2.06,1016,60,12.030000000000001,10000
+Ankara,TR,14,few clouds,0.62,1010,85,11.0,10000
+Kyiv,UA,20.4,broken clouds,2.64,1015,49,10.2,10000
+Hamburg,DE,14.25,clear sky,2.06,1015,81,10.45,10000
+Munich,DE,13.25,scattered clouds,0.96,1024,84,10.05,10000
+Cologne,DE,15.23,light rain,1.54,1016,83,11.83,10000
+Frankfurt am Main,DE,17.84,clear sky,2.57,1017,55,8.84,10000
+Stuttgart,DE,16.75,clear sky,2.06,1019,66,9.95,10000
+Düsseldorf,DE,14.59,light intensity drizzle rain,3.6,1015,91,12.79,10000
+Dortmund,DE,14.31,light rain,3.09,1017,88,11.91,10000
+Essen,DE,13.89,moderate rain,0.45,1016,93,12.49,6501
+Leipzig,DE,16.87,clear sky,3.09,1017,59,8.670000000000002,10000
+Bremen,DE,15.92,clear sky,2.57,1014,76,11.120000000000001,10000
+Dresden,DE,14.95,few clouds,0.51,1013,88,12.549999999999999,10000
+Hanover,DE,16.6,clear sky,2.57,1018,76,11.8,10000
+Nuremberg,DE,16.99,clear sky,2.06,1019,48,6.589999999999998,10000
+Duisburg,DE,14.43,light intensity drizzle rain,3.6,1015,90,12.43,10000
+Bochum,DE,13.88,moderate rain,0.45,1010,93,12.48,10000
+Wuppertal,DE,13.6,light rain,2.62,1016,89,11.399999999999999,7402
+Bielefeld,DE,16.28,light rain,3.42,1015,75,11.280000000000001,10000
+Bonn,DE,15.33,light rain,2.24,1014,82,11.73,10000
+Münster,DE,15.11,moderate rain,4.63,1014,86,12.309999999999999,10000
+Karlsruhe,DE,19.01,scattered clouds,1.87,1019,78,14.610000000000001,10000
+Mannheim,DE,18.18,clear sky,2.06,1018,53,8.78,10000
+Augsburg,DE,15.31,clear sky,2.06,1019,55,6.3100000000000005,10000
+Wiesbaden,DE,18.13,light rain,1.79,1014,50,8.129999999999999,10000
+Gelsenkirchen,DE,14.11,moderate rain,0.45,1016,92,12.51,10000
+Mönchengladbach,DE,14.52,overcast clouds,2.57,1015,91,12.719999999999999,10000
+Braunschweig,DE,16.53,clear sky,2.06,1016,52,6.9300000000000015,10000
+Direktionsbezirk Chemnitz,DE,12.6,overcast clouds,0.99,1018,81,8.8,10000
+Kiel,DE,15.06,clear sky,3.6,1015,72,9.46,10000
+Aachen,DE,14.69,overcast clouds,6.67,1013,83,11.29,10000
+Halle,DE,16.5,clear sky,3.09,1017,59,8.3,10000
+Magdeburg,DE,14.25,broken clouds,1.33,1017,71,8.45,10000
+Fribourg,CH,14.57,broken clouds,1.03,1019,55,5.57,10000
+Krefeld,DE,14.65,light rain,3.09,1015,89,12.45,10000
+Lübeck,DE,13.73,few clouds,1.54,1016,80,9.73,10000
+Oberhausen,DE,14.35,light rain,3.81,1015,92,12.75,5802
+Erfurt,DE,14.94,clear sky,2.57,1018,62,7.34,10000
+Mainz,DE,18.7,overcast clouds,3.09,1016,49,8.5,10000
+Rostock,DE,16.4,clear sky,1.24,1016,78,11.999999999999998,10000
+Kassel,DE,16.63,clear sky,3.09,1017,51,6.829999999999998,10000
+Hagen,DE,13.36,light rain,2.24,1015,88,10.959999999999999,10000
+Saarbrücken,DE,17.8,broken clouds,4.12,1018,55,8.8,10000
+Hamm,DE,14.98,overcast clouds,3.28,1016,79,10.780000000000001,10000
+Mülheim,DE,14.22,light intensity drizzle rain,3.6,1015,92,12.620000000000001,10000
+Potsdam,DE,16.97,clear sky,1.11,1017,77,12.37,10000
+Ludwigshafen am Rhein,DE,18.78,clear sky,2.57,1018,50,8.780000000000001,10000
+Oldenburg,DE,14.9,overcast clouds,3.03,1014,85,11.9,10000
+Leverkusen,DE,15.19,light rain,3.43,1016,82,11.59,10000
+Osnabrück,DE,15.28,moderate rain,4.03,1015,88,12.879999999999999,10000
+Solingen,DE,13.64,overcast clouds,2.77,1016,98,13.24,10000
+Heidelberg,ZA,13.21,clear sky,0.94,1027,41,1.4100000000000001,10000
+Herne,DE,13.99,moderate rain,3.53,1009,91,12.19,10000
+Neuss,DE,14.78,light intensity drizzle rain,3.09,1015,91,12.979999999999999,10000
+Regierungsbezirk Darmstadt,DE,17.25,overcast clouds,2.19,1018,59,9.05,10000
+Paderborn,DE,16.29,light rain,2.06,1015,63,8.889999999999999,10000
+Regensburg,DE,17.59,overcast clouds,0.96,1019,63,10.19,10000
+Ingolstadt,DE,16.6,scattered clouds,2.06,1019,51,6.800000000000001,10000
+Wurzburg,DE,15.05,few clouds,2.29,1019,80,11.05,10000
+Wolfsburg,DE,16.14,clear sky,1.04,1016,68,9.74,10000
+Ulm,DE,14,clear sky,0.73,1018,86,11.2,10000
+Heilbronn,DE,15.66,clear sky,0.66,1019,74,10.46,10000
+Pforzheim,DE,15.3,few clouds,1.26,1019,80,11.3,10000
+Göttingen,DE,14.59,overcast clouds,2.74,1017,74,9.39,10000
+Bottrop,DE,13.91,moderate rain,4.11,1015,94,12.71,9476
+Trier,DE,15.29,overcast clouds,3.03,1018,96,14.489999999999998,10000
+Recklinghausen,DE,13.85,moderate rain,2.68,1011,91,12.049999999999999,10000
+Reutlingen,DE,15.79,clear sky,1.85,1019,79,11.59,10000
+Bremerhaven,DE,15.77,overcast clouds,3.13,1014,86,12.969999999999999,10000
+Koblenz,DE,15.59,overcast clouds,2.65,1017,97,14.99,10000
+Bergisch Gladbach,DE,14.74,light rain,3.09,1011,80,10.74,10000
+Jena,DE,13.3,few clouds,1.5,1018,76,8.5,10000
+Remscheid,DE,13.21,light rain,2.66,1016,87,10.610000000000001,10000
+Erlangen,DE,16.19,clear sky,0.51,1019,55,7.190000000000001,10000
+Moers,DE,14.48,light intensity drizzle rain,3.6,1015,92,12.88,10000
+Siegen,DE,14.87,overcast clouds,2.57,1016,74,9.669999999999998,10000
+Hildesheim,DE,15.74,broken clouds,2.2,1016,64,8.54,10000
+Salzgitter,DE,15.54,few clouds,2.25,1016,63,8.139999999999999,10000
+Cottbus,DE,14.42,clear sky,0.45,1017,90,12.42,10000
+Kaiserslautern,DE,13.14,overcast clouds,2.03,1018,86,10.34,10000
+Gütersloh,DE,16.88,light rain,4.49,1016,60,8.879999999999999,10000
+Schwerin,DE,12.72,few clouds,2.01,1014,91,10.92,10000
+Witten,DE,14.11,light rain,2.79,1016,89,11.91,10000
+Gera,DE,15.19,broken clouds,1.77,989,70,9.19,10000
+Iserlohn,DE,12.89,few clouds,3.09,1016,89,10.690000000000001,10000
+Ludwigsburg,DE,15.39,few clouds,0.75,1019,68,8.99,10000
+Esslingen am Neckar,DE,15.28,clear sky,1.03,1018,71,9.48,10000
+Tübingen,DE,16.4,clear sky,1.62,1019,78,11.999999999999998,10000
+Flensburg,DE,15.48,clear sky,2.57,1014,55,6.48,10000
+Zwickau,DE,14.84,few clouds,1.75,1018,79,10.64,10000
+Villingen-Schwenningen,DE,13.14,broken clouds,0.6,1019,79,8.940000000000001,10000
+Giessen,DE,15.79,overcast clouds,2.92,1001,67,9.19,10000
+Konstanz,DE,16.46,overcast clouds,1.09,1018,70,10.46,10000
+Dessau,DE,15.04,clear sky,2.12,1018,80,11.04,10000
+Worms,DE,18.7,overcast clouds,2.51,1018,81,14.899999999999999,10000
+Rosenheim,DE,13.1,broken clouds,1.15,1021,85,10.1,10000
+Offenbach,DE,17.7,clear sky,2.57,1017,55,8.7,10000
+Kempten (Allgäu),DE,13.56,few clouds,0.5,1020,86,10.760000000000002,10000
+Baden-Baden,DE,18.6,clear sky,1.54,1018,48,8.200000000000001,10000
+Langenfeld,DE,15.01,overcast clouds,3.14,1016,82,11.41,10000
+Wilhelmshaven,DE,15.64,overcast clouds,3.3,1014,85,12.64,10000
+Nordhausen,DE,12.05,clear sky,1.42,1017,78,7.65,10000
+Norderstedt,DE,14.29,clear sky,2.06,1013,89,12.09,10000
+Garbsen,DE,16.83,clear sky,2.57,1016,66,10.029999999999998,10000
+Wolfenbüttel,DE,15.88,clear sky,3.6,1015,58,7.48,10000
+Fulda,DE,15.9,scattered clouds,2.31,1018,78,11.5,10000
+Hof,DE,11.66,few clouds,1.54,1019,76,6.86,10000
+Landshut,DE,14.37,scattered clouds,1.31,1019,78,9.969999999999999,10000
+Aschaffenburg,DE,16.19,broken clouds,2.16,1018,74,10.990000000000002,10000
+Neuwied,DE,15.53,overcast clouds,3.06,1017,81,11.73,10000
+Dormagen,DE,15.03,light rain,3.21,1017,93,13.629999999999999,10000
+Bayreuth,DE,12.7,scattered clouds,1.38,1019,73,7.299999999999999,10000
+Hürth,DE,14.96,light rain,3.6,1016,81,11.16,10000
+Brandenburg,DE,16.08,light rain,0.49,1017,75,11.079999999999998,10000
+Neubrandenburg,DE,12.52,scattered clouds,1.4,1017,89,10.32,10000
+Görlitz,DE,14.84,overcast clouds,0.37,1019,79,10.64,10000
+Gladbeck,DE,13.9,moderate rain,2.68,1014,91,12.1,10000
+Lüdenscheid,DE,12.46,light rain,0.45,1015,89,10.260000000000002,10000
+Castrop-Rauxel,DE,13.8,moderate rain,3.28,1003,90,11.8,10000
+Bitterfeld-Wolfen,DE,14.49,scattered clouds,2.62,1017,96,13.69,10000
+Landau,DE,18.42,broken clouds,2.37,1018,84,15.220000000000002,10000
+Frechen,DE,15.09,light rain,3.6,1016,83,11.69,10000
+Kaufbeuren,DE,12.64,scattered clouds,1.03,1019,71,6.840000000000001,10000
+Straubing,DE,13.52,clear sky,1.51,1020,71,7.72,10000
+Grevenbroich,DE,14.83,overcast clouds,2.06,1015,90,12.83,10000
+Marl,DE,13.87,moderate rain,2.68,1013,91,12.069999999999999,10000
+Bamberg,DE,14.92,scattered clouds,1.75,1019,75,9.92,10000
+Langenhagen,DE,16.97,clear sky,2.57,1016,72,11.37,10000
+Aalen,DE,13.66,few clouds,0.12,1019,72,8.06,10000
+Hamelin,DE,16.18,broken clouds,2.32,1016,76,11.379999999999999,10000
+Meerbusch,DE,14.6,light intensity drizzle rain,3.6,1015,91,12.799999999999999,10000
+Bad Homburg,DE,17.33,overcast clouds,2.76,1017,59,9.129999999999999,10000
+Düren,DE,14.83,broken clouds,3.6,1016,77,10.23,10000
+Hürth,DE,14.96,light rain,3.6,1016,81,11.16,10000
+Schwabach,DE,16.16,clear sky,0.51,1019,55,7.16,10000
+Waiblingen,DE,15.68,clear sky,2.06,1019,69,9.48,10000
+Plauen,DE,13.68,few clouds,3.06,1018,58,5.279999999999999,10000
+Herten,DE,13.75,moderate rain,2.68,1013,91,11.95,10000
+Loerrach,DE,17.47,clear sky,2.06,1018,59,9.27,10000
+Velbert,DE,13.01,light rain,2.9,1015,91,11.209999999999999,4176
+Ahaus,DE,13.65,moderate rain,2.24,1013,89,11.45,10000
+Bruchsal,DE,17.27,scattered clouds,1.83,1018,74,12.07,10000
+Schwerte,DE,14.05,few clouds,3.09,1016,87,11.450000000000001,10000
+Sindelfingen,DE,15.95,clear sky,2.06,1019,59,7.75,10000
+Elmshorn,DE,15.22,few clouds,2.53,1016,83,11.82,10000
+Herford,DE,16.67,light rain,2.85,1015,60,8.670000000000002,10000
+Strausberg,DE,16.61,clear sky,1.93,1017,74,11.41,10000
+Hockenheim,DE,18.22,clear sky,2.57,1018,50,8.219999999999999,10000
+Kamp-Lintfort,DE,14.31,light rain,5.39,1015,95,13.31,10000
+Baunatal,DE,16.03,scattered clouds,3.09,1017,55,7.030000000000001,10000
+Lindau,DE,16.78,clear sky,1.03,1019,58,8.38,10000
+Löhne,DE,16.85,light rain,2.95,1015,65,9.850000000000001,10000
+Bühl,DE,18.75,clear sky,1.54,1018,48,8.35,10000
+Unna,DE,14.06,light rain,3.09,1015,87,11.46,10000
+Limburg,NL,14.88,light rain,5.89,1015,92,13.280000000000001,10000
+Neunkirchen,DE,16.4,clear sky,3.09,1018,63,8.999999999999998,10000
+Minden,DE,17,broken clouds,2.57,1015,55,8.0,10000
+Hennef,DE,15.16,light rain,3.09,1016,80,11.16,10000
+Wismar,DE,15.02,few clouds,2.33,1015,86,12.219999999999999,10000
+Passau,DE,13.64,broken clouds,1.41,1020,91,11.84,10000
+Dachau,DE,13.02,few clouds,1.51,1020,78,8.62,10000
+Biberach an der Riss,DE,15.74,few clouds,1.03,1019,48,5.34,10000
+Gummersbach,DE,13.51,light rain,2.67,1017,81,9.71,10000
+Backnang,DE,14.96,few clouds,1.18,1019,70,8.96,10000
+Homburg,DE,17.56,broken clouds,4.12,1018,55,8.559999999999999,10000
+Pinneberg,DE,14.54,clear sky,2.06,1015,85,11.54,10000
+Ravensburg,DE,15.3,clear sky,1.03,1019,66,8.5,10000
+Heidenheim,DE,12.81,few clouds,0.4,1020,65,5.8100000000000005,10000
+Nordhorn,DE,13.86,moderate rain,5.65,1014,93,12.459999999999999,10000
+Borken,DE,13.75,light rain,4.98,1015,95,12.75,10000
+Sankt Ingbert,DE,16.56,clear sky,3.09,1018,63,9.159999999999998,10000
+Freising,DE,14.5,scattered clouds,3.09,1020,73,9.1,10000
+Dülmen,DE,13.91,light rain,4.36,1015,82,10.31,10000
+Kitzingen,DE,15.01,few clouds,2.22,1019,81,11.21,10000
+Stade,DE,14.88,clear sky,2.44,1015,88,12.48,10000
+Warendorf,DE,15.64,light rain,3.88,1015,93,14.24,10000
+Rüsselsheim am Main,DE,18.18,clear sky,2.57,1015,66,11.379999999999999,10000
+Lehrte,DE,16.81,scattered clouds,2.01,1016,73,11.409999999999998,10000
+Griesheim,DE,17.93,clear sky,2.57,1017,71,12.129999999999999,10000
+Bad Kreuznach,DE,18.15,overcast clouds,2.93,1018,87,15.549999999999999,10000
+Kleve,DE,14.12,moderate rain,6.44,1014,90,12.12,10000
+Rheine,DE,14.34,moderate rain,0.89,1015,77,9.74,10000
+Neumünster,DE,14.8,clear sky,0.45,1015,85,11.8,10000
+Coburg,DE,14.07,few clouds,1.74,1019,79,9.870000000000001,10000
+Aschersleben,DE,12.75,scattered clouds,1.92,1017,74,7.55,10000
+Schwäbisch Hall,DE,16.59,clear sky,1.03,1019,51,6.789999999999999,10000
+Königs Wusterhausen,DE,16.44,few clouds,4.12,1015,84,13.240000000000002,10000
+Lüdinghausen,DE,14.22,light rain,3.99,1015,94,13.020000000000001,10000
+Husum,DE,15.77,clear sky,2.26,1014,85,12.77,10000
+Schleswig,DE,15.48,clear sky,3.6,1014,64,8.280000000000001,10000
+Starnberg,DE,12.65,scattered clouds,2.57,1020,79,8.45,10000
+Alzey,DE,17.84,overcast clouds,3.81,1018,82,14.24,10000
+Halberstadt,DE,15.37,clear sky,2.3,1017,73,9.969999999999999,10000
+Salzwedel,DE,15.57,clear sky,2.6,1016,73,10.17,10000
+Delmenhorst,DE,15.08,clear sky,2.57,1014,80,11.08,10000
+Mühldorf,DE,13.34,broken clouds,2.07,1017,91,11.54,10000
+Celle,DE,17.69,few clouds,2.57,1016,45,6.690000000000001,10000
+Oelde,DE,16.25,light rain,4.28,1016,61,8.45,10000
+Olpe,DE,13.73,overcast clouds,3.07,1017,79,9.530000000000001,10000
+Papenburg,DE,16.47,light rain,5.44,1013,58,8.069999999999999,10000
+Werne,DE,14.44,light rain,3.09,1016,86,11.64,10000
+Eisenach,DE,14.06,few clouds,2.88,1018,79,9.86,10000
+Neuruppin,DE,15.02,clear sky,1.15,1017,88,12.62,10000
+Weißenfels,DE,15.35,clear sky,2.11,1018,68,8.95,10000
+Friedberg,DE,15.07,clear sky,1.03,1019,63,7.67,10000
+Rastatt,DE,19.03,clear sky,1.54,1018,48,8.63,10000
+Stolberg,DE,14.53,overcast clouds,6.01,1015,82,10.93,10000
+Goch,DE,14.12,moderate rain,4.63,1014,91,12.319999999999999,9000
+Nettetal,DE,14.49,light rain,2.06,1015,93,13.09,10000
+Düren,DE,14.83,broken clouds,3.6,1016,77,10.23,10000
+Pulheim,DE,15.11,light rain,4.4,1015,86,12.309999999999999,10000
+Bocholt,DE,13.91,light rain,5.99,1014,89,11.71,10000
+Bergheim,DE,14.97,broken clouds,3.6,1016,85,11.97,10000
+Neuss,DE,14.78,light intensity drizzle rain,3.09,1015,91,12.979999999999999,10000
+Hamm,DE,14.98,overcast clouds,3.28,1016,79,10.780000000000001,10000
+Marl,DE,13.87,moderate rain,2.68,1013,91,12.069999999999999,10000
+Lippstadt,DE,16.65,light rain,2.57,1016,59,8.45,10000
+Ahlen,DE,15.32,overcast clouds,3.5,1016,79,11.120000000000001,10000
+Unna,DE,14.06,light rain,3.09,1015,87,11.46,10000
+Bad Salzuflen,DE,16.71,light rain,2.71,1015,60,8.71,10000
+Siegen,DE,14.87,overcast clouds,2.57,1016,74,9.669999999999998,10000
+Ratingen,DE,14.6,light intensity drizzle rain,3.09,1016,89,12.399999999999999,10000
+Wesel,DE,13.87,light rain,5.91,1015,89,11.669999999999998,10000
+Gelsenkirchen,DE,14.11,moderate rain,0.45,1016,92,12.51,10000
+Witten,DE,14.11,light rain,2.79,1016,89,11.91,10000
+Hilden,DE,14.81,overcast clouds,3.09,1015,87,12.21,10000
+Grevenbroich,DE,14.83,overcast clouds,2.06,1015,90,12.83,10000
+Langenfeld,DE,15.01,overcast clouds,3.14,1016,82,11.41,10000
+Dorsten,DE,14.03,moderate rain,2.68,1014,91,12.229999999999999,10000
+Kamen,DE,14.64,few clouds,3.09,1016,86,11.84,10000
+Bergkamen,DE,14.59,light rain,3.09,1016,87,11.99,10000
+Sankt Augustin,DE,15.3,light rain,1.54,1016,83,11.9,10000
+Rheda-Wiedenbrück,DE,16.45,light rain,4.73,1016,84,13.25,10000
+Oberhausen,DE,14.35,light rain,3.81,1015,92,12.75,5802
+Eschweiler,DE,14.99,overcast clouds,5.87,1015,80,10.99,10000
+Mettmann,DE,13.77,light intensity drizzle rain,3.6,1015,91,11.969999999999999,10000
+Bad Honnef,DE,15.24,light rain,2.62,1017,80,11.24,10000
+Schwelm,DE,13.21,light rain,2.24,1015,89,11.010000000000002,8487
+Herzogenrath,DE,14.99,overcast clouds,3.6,1014,83,11.59,10000
+Viersen,DE,14.6,overcast clouds,2.06,1015,91,12.799999999999999,10000
+Neukirchen-Vluyn,DE,14.48,light rain,5.06,1015,91,12.68,10000
+Kerpen,DE,15.04,broken clouds,3.6,1016,82,11.44,10000
+Geilenkirchen,DE,15.21,overcast clouds,3.6,1015,81,11.41,10000
+Erkelenz,DE,14.74,light rain,5.02,1015,89,12.54,10000
+Geldern,DE,14.22,light rain,4.63,1018,95,13.22,9000
+Greven,DE,14.44,moderate rain,3.09,1015,90,12.44,10000
+Haan,DE,13.83,light intensity drizzle rain,3.6,1015,91,12.03,10000
+Meerbusch,DE,14.6,light intensity drizzle rain,3.6,1015,91,12.799999999999999,10000
+Vlotho,DE,16.82,light rain,2.57,1015,55,7.82,10000
+Bad Oeynhausen,DE,16.78,light rain,2.8,1015,78,12.38,10000
+Ibbenbueren,DE,14.17,light rain,3.09,1015,91,12.37,10000
+Oerlinghausen,DE,15.66,light rain,2.89,1015,60,7.66,10000
+Harsewinkel,DE,16.58,moderate rain,4.78,1016,60,8.579999999999998,10000
+Versmold,DE,15.99,moderate rain,4.5,1015,89,13.79,10000
+Gütersloh,DE,16.88,light rain,4.49,1016,60,8.879999999999999,10000
+Rietberg,DE,16.56,light rain,4.2,1016,78,12.159999999999998,10000
+Beckum,DE,15.52,light rain,3.77,1016,71,9.719999999999999,10000
+Ennigerloh,DE,15.61,light rain,3.8,1016,95,14.61,10000
+Warendorf,DE,15.64,light rain,3.88,1015,93,14.24,10000
+Datteln,DE,14.27,light rain,3.55,1015,88,11.87,10000
+Coesfeld,DE,13.61,light rain,4.73,1015,92,12.01,10000
+Lüdinghausen,DE,14.22,light rain,3.99,1015,94,13.020000000000001,10000
+Dülmen,DE,13.91,light rain,4.36,1015,82,10.31,10000
+Haltern am See,DE,14.02,moderate rain,4.08,1012,90,12.02,10000
+Oer-Erkenschwick,DE,13.85,moderate rain,3.81,1013,91,12.049999999999999,10000
+Selm,DE,14.16,light rain,3.57,1015,83,10.76,10000
+Gladbeck,DE,13.9,moderate rain,2.68,1014,91,12.1,10000
+Castrop-Rauxel,DE,13.8,moderate rain,3.28,1003,90,11.8,10000
+Recklinghausen,DE,13.85,moderate rain,2.68,1011,91,12.049999999999999,10000
+Herten,DE,13.75,moderate rain,2.68,1013,91,11.95,10000
+Marl,DE,13.87,moderate rain,2.68,1013,91,12.069999999999999,10000
+Dortmund,DE,14.31,light rain,3.09,1017,88,11.91,10000
+Schwerte,DE,14.05,few clouds,3.09,1016,87,11.450000000000001,10000
+Unna,DE,14.06,light rain,3.09,1015,87,11.46,10000
+Werne,DE,14.44,light rain,3.09,1016,86,11.64,10000
+Hamm,DE,14.98,overcast clouds,3.28,1016,79,10.780000000000001,10000
+Bochum,DE,13.88,moderate rain,0.45,1010,93,12.48,10000
+Witten,DE,14.11,light rain,2.79,1016,89,11.91,10000
+Hattingen,DE,14.02,light rain,0.45,1016,90,12.02,8444
+Herne,DE,13.99,moderate rain,3.53,1009,91,12.19,10000
+Gelsenkirchen,DE,14.11,moderate rain,0.45,1016,92,12.51,10000
+Oberhausen,DE,14.35,light rain,3.81,1015,92,12.75,5802
+Bottrop,DE,13.91,moderate rain,4.11,1015,94,12.71,9476
+Mülheim,DE,14.22,light intensity drizzle rain,3.6,1015,92,12.620000000000001,10000
+Essen,DE,13.89,moderate rain,0.45,1016,93,12.49,6501
+Velbert,DE,13.01,light rain,2.9,1015,91,11.209999999999999,4176
+Wuppertal,DE,13.6,light rain,2.62,1016,89,11.399999999999999,7402
+Solingen,DE,13.64,overcast clouds,2.77,1016,98,13.24,10000
+Remscheid,DE,13.21,light rain,2.66,1016,87,10.610000000000001,10000
+Wiesbaden,DE,18.13,light rain,1.79,1014,50,8.129999999999999,10000
+Rüsselsheim am Main,DE,18.18,clear sky,2.57,1015,66,11.379999999999999,10000
+Bad Homburg,DE,17.33,overcast clouds,2.76,1017,59,9.129999999999999,10000
+Oberursel,DE,17.08,clear sky,3.09,1017,57,8.479999999999999,10000
+Bad Soden,DE,15.85,broken clouds,2.11,1018,78,11.45,10000
+Kelkheim,DE,17.15,clear sky,3.09,1017,55,8.149999999999999,10000
+Flörsheim,DE,17.88,clear sky,3.09,1017,66,11.079999999999998,10000
+Hattersheim,DE,17.67,clear sky,3.09,1017,65,10.670000000000002,10000
+Hofheim,DE,17.59,clear sky,3.09,1017,67,10.99,10000
+Kriftel,DE,18.04,clear sky,2.57,1017,64,10.84,10000
+Niedernhausen,DE,16.39,light rain,2.56,1018,50,6.390000000000001,10000
+Raunheim,DE,18.29,clear sky,2.57,1017,65,11.29,10000
+Schwalbach,DE,16.7,overcast clouds,1.63,1018,90,14.7,10000
+Eschborn,DE,17.47,clear sky,3.09,1017,55,8.469999999999999,10000
+Bad Vilbel,DE,17.32,overcast clouds,2.74,1017,59,9.120000000000001,10000
+Maintal,DE,17.36,overcast clouds,2.56,1018,65,10.36,10000
+Karben,DE,17.21,overcast clouds,2.74,1017,59,9.010000000000002,10000
+Nidderau,DE,16.89,overcast clouds,2.65,1017,62,9.290000000000001,10000
+Friedberg,DE,15.07,clear sky,1.03,1019,63,7.67,10000
+Büdingen,DE,15.61,overcast clouds,2.41,1018,65,8.61,10000
+Butzbach,DE,15.79,overcast clouds,2.79,1017,71,9.989999999999998,10000
+Hanau,DE,17.13,overcast clouds,2.39,1018,65,10.129999999999999,10000
+Seligenstadt,DE,16.93,overcast clouds,2.29,1018,63,9.53,10000
+Hainburg,DE,16.93,overcast clouds,2.29,1018,63,9.53,10000
+Obertshausen,DE,17.11,overcast clouds,2.44,1018,63,9.709999999999999,10000
+Mühlheim am Main,DE,17.4,overcast clouds,2.49,1018,65,10.399999999999999,10000
+Rodgau,DE,17.21,overcast clouds,2.32,1018,59,9.010000000000002,10000
+Dietzenbach,DE,17.56,clear sky,2.57,1017,56,8.759999999999998,10000
+Dreieich,DE,17.11,clear sky,3.09,1018,57,8.51,10000
+Neu Isenburg,DE,17.35,clear sky,3.09,1017,57,8.750000000000002,10000
+Langen,DE,17.82,clear sky,2.57,1018,56,9.02,10000
+Egelsbach,DE,17.44,clear sky,3.09,1018,68,11.040000000000001,10000
+Erzhausen,DE,17.56,clear sky,3.09,1018,68,11.159999999999998,10000
+Griesheim,DE,17.93,clear sky,2.57,1017,71,12.129999999999999,10000
+Weiterstadt,DE,18.05,clear sky,2.57,1018,69,11.850000000000001,10000
+Pfungstadt,DE,17.64,overcast clouds,2.07,1018,78,13.24,10000
+Seeheim-Jugenheim,DE,17.27,overcast clouds,2.02,1018,78,12.87,10000
+Bensheim,DE,17.72,overcast clouds,1.92,1018,60,9.719999999999999,10000
+Lorsch,DE,18.1,overcast clouds,1.34,1018,58,9.700000000000001,10000
+Heppenheim,DE,17.77,overcast clouds,1.34,1018,60,9.77,10000
+Biblis,DE,18.14,overcast clouds,2.01,1018,60,10.14,10000
+Lampertheim,DE,18.53,light rain,2.57,1018,51,8.73,10000
+Viernheim,DE,18.24,clear sky,2.57,1018,51,8.439999999999998,10000
+Hirschhorn,DE,16.39,broken clouds,1.94,1018,60,8.39,10000
+Eberbach,DE,15.98,overcast clouds,1.79,1018,60,7.98,10000
+Wald-Michelbach,DE,15.41,overcast clouds,2.28,1018,57,6.8100000000000005,10000
+Beerfelden,DE,14.29,overcast clouds,2.07,1018,60,6.289999999999999,10000
+Michelstadt,DE,15.36,overcast clouds,2.3,1021,61,7.56,10000
+Erbach im Odenwald,DE,15.25,overcast clouds,0.45,1021,60,7.25,10000
+Reichelsheim,DE,16.01,overcast clouds,2.5,1018,66,9.21,10000
+Bürstadt,DE,18.18,clear sky,2.06,1018,55,9.18,10000
+Grünstadt,DE,18.05,overcast clouds,2.98,1018,81,14.25,10000
+Frankenthal,DE,19,clear sky,2.57,1018,50,9.0,10000
+Ludwigshafen am Rhein,DE,18.78,clear sky,2.57,1018,50,8.780000000000001,10000
+Schifferstadt,DE,18.4,clear sky,2.06,1018,48,7.999999999999998,10000
+Speyer,DE,18.69,clear sky,2.57,1018,42,7.090000000000002,10000
+Hockenheim,DE,18.22,clear sky,2.57,1018,50,8.219999999999999,10000
+Ketsch,DE,18.18,clear sky,2.06,1018,52,8.58,10000
+Schwetzingen,DE,18.01,clear sky,2.57,1018,49,7.810000000000002,10000
+Brühl,DE,15.22,light rain,3.6,1016,79,11.02,10000
+Leimen,DE,17.5,clear sky,2.57,1017,55,8.5,10000
+Nußloch,DE,17.2,broken clouds,2.15,1017,60,9.2,10000
+Sandhausen,DE,17.4,clear sky,2.06,1017,56,8.599999999999998,10000
+Wiesloch,DE,17.06,broken clouds,2.07,1017,59,8.86,10000
+Walldorf,DE,17.54,broken clouds,2.2,1017,59,9.34,10000
+St. Leon-Rot,DE,17.45,broken clouds,2.14,1017,57,8.85,10000
+Rauenberg,DE,17.07,broken clouds,2.03,1017,60,9.07,10000
+Mannheim,DE,18.18,clear sky,2.06,1018,53,8.78,10000
+Viernheim,DE,18.24,clear sky,2.57,1018,51,8.439999999999998,10000
+Weinheim,DE,17.71,clear sky,2.57,1018,52,8.110000000000001,10000
+Weinheim,DE,17.71,clear sky,2.57,1018,52,8.110000000000001,10000
+Wiesloch,DE,17.06,broken clouds,2.07,1017,59,8.86,10000
+Worms,DE,18.7,overcast clouds,2.51,1018,81,14.899999999999999,10000
+Bensheim,DE,17.72,overcast clouds,1.92,1018,60,9.719999999999999,10000
+Lorsch,DE,18.1,overcast clouds,1.34,1018,58,9.700000000000001,10000
+Heppenheim,DE,17.77,overcast clouds,1.34,1018,60,9.77,10000
+Biblis,DE,18.14,overcast clouds,2.01,1018,60,10.14,10000
+Lampertheim,DE,18.53,light rain,2.57,1018,51,8.73,10000
+Viernheim,DE,18.24,clear sky,2.57,1018,51,8.439999999999998,10000
+Hirschhorn,DE,16.39,broken clouds,1.94,1018,60,8.39,10000
+Eberbach,DE,15.98,overcast clouds,1.79,1018,60,7.98,10000
+Wald-Michelbach,DE,15.41,overcast clouds,2.28,1018,57,6.8100000000000005,10000
+Beerfelden,DE,14.29,overcast clouds,2.07,1018,60,6.289999999999999,10000
+Michelstadt,DE,15.36,overcast clouds,2.3,1021,61,7.56,10000
+Erbach im Odenwald,DE,15.25,overcast clouds,0.45,1021,60,7.25,10000
+Reichelsheim,DE,16.01,overcast clouds,2.5,1018,66,9.21,10000
+Bürstadt,DE,18.18,clear sky,2.06,1018,55,9.18,10000
+Grünstadt,DE,18.05,overcast clouds,2.98,1018,81,14.25,10000
+Frankenthal,DE,19,clear sky,2.57,1018,50,9.0,10000
+Ludwigshafen am Rhein,DE,18.78,clear sky,2.57,1018,50,8.780000000000001,10000
+Schifferstadt,DE,18.4,clear sky,2.06,1018,48,7.999999999999998,10000
+Speyer,DE,18.69,clear sky,2.57,1018,42,7.090000000000002,10000
+Hockenheim,DE,18.22,clear sky,2.57,1018,50,8.219999999999999,10000
+Ketsch,DE,18.18,clear sky,2.06,1018,52,8.58,10000
+Schwetzingen,DE,18.01,clear sky,2.57,1018,49,7.810000000000002,10000
+Brühl,DE,15.22,light rain,3.6,1016,79,11.02,10000
+Leimen,DE,17.5,clear sky,2.57,1017,55,8.5,10000
+Nußloch,DE,17.2,broken clouds,2.15,1017,60,9.2,10000
+Sandhausen,DE,17.4,clear sky,2.06,1017,56,8.599999999999998,10000
+Wiesloch,DE,17.06,broken clouds,2.07,1017,59,8.86,10000
+Walldorf,DE,17.54,broken clouds,2.2,1017,59,9.34,10000
+St. Leon-Rot,DE,17.45,broken clouds,2.14,1017,57,8.85,10000
+Rauenberg,DE,17.07,broken clouds,2.03,1017,60,9.07,10000
+Mannheim,DE,18.18,clear sky,2.06,1018,53,8.78,10000
+Viernheim,DE,18.24,clear sky,2.57,1018,51,8.439999999999998,10000
+Weinheim,DE,17.71,clear sky,2.57,1018,52,8.110000000000001,10000

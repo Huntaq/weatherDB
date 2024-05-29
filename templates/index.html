@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Weather Data Map</title>
+		<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+		<link rel="stylesheet" href="/static/css/styles.css" />
+	</head>
+	<body>
+		<div id="date-slider">
+			<input type="date" id="slider" value="{{ today }}" />
+		</div>
+		<div id="map"></div>
+
+		<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+		<script src="/static/js/script.js"></script>
+		<script>
+			document.addEventListener("DOMContentLoaded", function () {
+				var today = document.getElementById("slider").value;
+				loadData(today);
+			});
+		</script>
+	</body>
+</html>
