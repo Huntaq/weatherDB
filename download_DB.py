@@ -1,7 +1,16 @@
 import requests
 import csv
+import os
 from datetime import datetime
+from geopy.geocoders import Nominatim
 
+def get_lat_long(city):
+    geolocator = Nominatim(user_agent="geoapiExercises1")
+    location = geolocator.geocode(city)
+    if location:
+        return city,location.latitude, location.longitude
+    else:
+        return None, None
 
 def get_weather_data(city):
     api_key = '5241a398dcf1bc7bbaee5ceeb1574eab'
@@ -28,7 +37,6 @@ def get_weather_data(city):
     else:
         print(f"City {city} not found or data not available.")
         return None
-
 
 if __name__ == "__main__":
     cities = [
@@ -83,20 +91,52 @@ if __name__ == "__main__":
         "Wiesloch", "Walldorf", "St. Leon-Rot", "Rauenberg", "Mannheim", "Viernheim", "Weinheim"
     ]
 
+    
     data_to_save = []
-    for city in cities:
-        weather_data = get_weather_data(city)
-        if weather_data:
-            data_to_save.append(weather_data)
 
     # Save data to .CSV
     current_date = datetime.now().strftime("%Y-%m-%d")
+    data_folder = 'data'
     csv_file_name = f"weather_data_{current_date}.csv"
+    csv_file_path = os.path.join(data_folder, csv_file_name)
 
-    with open(csv_file_name, 'w', newline='', encoding='utf-8') as csvfile:
-        csv_writer = csv.writer(csvfile)
-        csv_writer.writerow(["City", "Country", "Temperature (°C)", "Weather Description", "Wind Speed (m/s)",
-                             "Pressure (hPa)", "Humidity (%)", "Dew Point (°C)", "Visibility (m)"])
-        csv_writer.writerows(data_to_save)
+    # Create data directory if it doesn't exist
+    if not os.path.exists(data_folder):
+        os.makedirs(data_folder)
 
-    print(f"Data saved to file: {csv_file_name}")
+    # Check if the file already exists
+    if os.path.exists(csv_file_path):
+        print(f"The file {csv_file_name} already exists in the {data_folder} folder.")
+    else:
+        for city in cities:
+            weather_data = get_weather_data(city)
+            if weather_data:
+                data_to_save.append(weather_data)
+        with open(csv_file_path, 'w', newline='', encoding='utf-8') as csvfile:
+            csv_writer = csv.writer(csvfile)
+            csv_writer.writerow(["City", "Country", "Temperature (°C)", "Weather Description", "Wind Speed (m/s)",
+                                 "Pressure (hPa)", "Humidity (%)", "Dew Point (°C)", "Visibility (m)"])
+            csv_writer.writerows(data_to_save)
+
+        print(f"Data saved to file: {csv_file_path}")
+    
+    if os.path.exists(os.path.join(data_folder, "cords.csv")):
+        print(f"The file cords.csv already exists in the {data_folder} folder.")
+
+    else:
+        data_to_save = []
+        for city in cities:
+            weather_data = get_lat_long(city)
+            if weather_data:
+                data_to_save.append(weather_data)
+        with open(os.path.join(data_folder, "cords.csv"), 'w', newline='', encoding='utf-8') as csvfile:
+            csv_writer = csv.writer(csvfile)
+            csv_writer.writerow(["City", "Latitude", "Longitude"])
+            csv_writer.writerows(data_to_save)
+
+        print(f"Data saved to file: cords.csv")
+    
+    
+
+
+

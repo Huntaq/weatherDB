@@ -14,15 +14,19 @@ function loadData(date) {
                 }
             });
             data.forEach(item => {
-                L.marker([item.Latitude, item.Longitude]).addTo(map)
-                    .bindPopup(`<b>${item.City}, ${item.Country}</b><br>
-                                Temperature: ${item['Temperature (°C)']}°C<br>
-                                Weather: ${item['Weather Description']}<br>
-                                Wind Speed: ${item['Wind Speed (m/s)']} m/s<br>
-                                Pressure: ${item['Pressure (hPa)']} hPa<br>
-                                Humidity: ${item['Humidity (%)']}%<br>
-                                Dew Point: ${item['Dew Point (°C)']}°C<br>
-                                Visibility: ${item['Visibility (m)']} m`);
+                // console.log(item);
+                if (item.Latitude!='' && item.Longitude!='') {
+                    
+                    L.marker([item.Latitude, item.Longitude]).addTo(map)
+                        .bindPopup(`<b>${item.City}, ${item.Country}</b><br>
+                                    Temperature: ${item['Temperature_°C']}°C <br>
+                                    Weather: ${item.Weather_Description}<br>
+                                    Wind Speed: ${item.Wind_Speed_m_per_s} m/s<br>
+                                    Pressure: ${item['Pressure_hPa']} hPa<br>
+                                    Humidity: ${item['Humidity_Pct']}%<br>
+                                    Dew Point: ${item['Dew_Point_°C']}°C<br>
+                                    Visibility: ${item['Visibility_m']} m`);
+                }
             });
         });
 }

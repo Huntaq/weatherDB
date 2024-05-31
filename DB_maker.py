@@ -27,8 +27,12 @@ def main():
     
     for file_name in os.listdir(data_folder):
         if file_name.endswith('.csv'):
-            date_str = file_name.split('_')[-1].split('.')[0].replace('-', '_')
-            table_name = f"weather_data_{date_str}"
+            if file_name == 'cords.csv':
+                table_name = 'coordinates'
+            else:
+                date_str = file_name.split('_')[-1].split('.')[0].replace('-', '_')
+                table_name = f"weather_data_{date_str}"
+                
             csv_file = os.path.join(data_folder, file_name)
             create_table_from_csv(cursor, table_name, csv_file)
     
