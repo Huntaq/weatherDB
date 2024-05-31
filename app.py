@@ -5,17 +5,18 @@ import sqlite3
 app = Flask(__name__)
 
 def get_lat_long(city):
-    try:
-        db_file = 'weather_data.db'
-        conn = sqlite3.connect(db_file)
-        cursor = conn.cursor()
-        cursor.execute("SELECT Latitude, Longitude FROM coordinates WHERE City=?", (city,))
-        result = cursor.fetchone()
-        conn.close()
-        if result:
-            return result
-    except sqlite3.OperationalError:
-        return None
+    db_file = 'weather_data.db'
+    conn = sqlite3.connect(db_file)
+    cursor = conn.cursor()
+    cursor.execute("SELECT Latitude, Longitude FROM coordinates WHERE City=?", (city,))
+    result = cursor.fetchone()
+    conn.close()
+    # print(result)
+    if result is not None:
+        return result
+    else:
+        return None,None
+    
 
 def get_data_for_date(date):
     db_file = 'weather_data.db'
@@ -24,7 +25,7 @@ def get_data_for_date(date):
     
     table_name = f"weather_data_{date.replace('-', '_')}"
     try:
-        cursor.execute(f"SELECT * FROM {table_name} LIMIT 20 ")
+        cursor.execute(f"SELECT * FROM {table_name} ")
         rows = cursor.fetchall()
         
 
@@ -33,6 +34,7 @@ def get_data_for_date(date):
             columns = [desc[0] for desc in cursor.description]
             data = [dict(zip(columns, row)) for row in rows]
             
+            print (data[-1])
             # print(data)
             # Dodawanie Latitude i Longitude dla każdego miasta
             for entry in data:
@@ -44,8 +46,8 @@ def get_data_for_date(date):
                         entry['Longitude'] = longitude
                         # print(type(latitude))
                     else:
-                        entry['Latitude'] = "2"
-                        entry['Longitude'] = "2"
+                        entry['Latitude'] = ""
+                        entry['Longitude'] = ""
                 else:
                     print("City name is missing for one of the entries.")
         else:
