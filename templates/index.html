@@ -1,23 +1,45 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Weather Data Map</title>
-		<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-		<link rel="stylesheet" href="/static/css/styles.css" />
-	</head>
-	<body>
-		<div id="date-slider">
-			<input type="date" id="slider" value="{{ today }}" />
-		</div>
-		<div id="map"></div>
+<head>
+    <title>Weather Data Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="/static/css/styles.css" />
+</head>
+<body>
+    <div id="date-slider">
+        <input type="date" id="slider" value="{{ today }}" />
+    </div>
 
-		<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-		<script src="/static/js/script.js"></script>
-		<script>
-			document.addEventListener("DOMContentLoaded", function () {
-				var today = document.getElementById("slider").value;
-				loadData(today);
-			});
-		</script>
-	</body>
+    <div id="main-container">
+        <div id="filters">
+            <h3>Filters</h3>
+            <label><input type="checkbox" id="temperature" checked> Temperature</label><br>
+            <label><input type="checkbox" id="humidity" checked> Humidity</label><br>
+            <label><input type="checkbox" id="windSpeed" checked> Wind Speed</label><br>
+            <label><input type="checkbox" id="pressure" checked> Pressure</label><br>
+            <label><input type="checkbox" id="dewPoint" checked> Dew Point</label><br>
+            <label><input type="checkbox" id="visibility" checked> Visibility</label><br>
+            <label>City: <input type="text" id="city" placeholder="Enter city name"></label><br>
+        </div>
+
+        <div id="average-section">
+            <h3>Average Data</h3>
+            <label>Start Date: <input type="date" id="startDate"></label><br>
+            <label>End Date: <input type="date" id="endDate"></label><br>
+            <button id="calculateAverage">Calculate Average</button>
+			
+        </div>
+    </div>
+    
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="/static/js/script.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var today = document.getElementById("slider").value;
+            loadData(today);
+        });
+    </script>
+</body>
 </html>
